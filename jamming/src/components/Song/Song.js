@@ -1,13 +1,27 @@
 import React from "react";
+import './Song.css';
 
-function Song() {
+function Song(props) {
     return (
-        <li>
+        <li className="song">
             <div className="songInfo">
-                <div className="songTitle"></div>
-                <div className="songArtists"></div>
+                <div className="songTitle">{
+                    props.title
+                    }</div>
+                <div className="songArtists">{
+                    props.name
+                    }</div>
             </div>
-            <div className="clickSong">*</div>
+            {props.isResult !== 'playlist' && (
+                <button 
+                    value={props.songId} 
+                    onClick={props.onClick} 
+                    className={props.isResult ? 'addSong' : 'removeSong'}
+                >
+                    {props.isResult ? '+' : '-'}
+                </button>
+            )}
+
         </li>
     );
 }

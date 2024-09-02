@@ -1,0 +1,21 @@
+.song {
+    width: 400px;
+    background-color: aliceblue;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.songTitle {
+    font-weight: bold;
+}
+
+button {
+    background-color: aquamarine;
+    color: rgb(6, 113, 113);
+}
+
+.addSong,
+.removeSong {
+    width: 70px;
+}

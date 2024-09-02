@@ -1,0 +1,10 @@
+.playlist-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#playlistSong {
+    margin-top: 20px;
+}

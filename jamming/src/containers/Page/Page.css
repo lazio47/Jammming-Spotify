@@ -1,0 +1,10 @@
+.results-playlist-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    height: 640px;
+}
+
+input {
+    width: 350px;
+}
