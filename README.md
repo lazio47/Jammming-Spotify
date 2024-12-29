@@ -1,4 +1,4 @@
-# Jammming-Spotify
+# To be updated - Jammming-Spotify
 
 In this project I used a rapidapi spotify api instead of the oficial spotify api.
 
