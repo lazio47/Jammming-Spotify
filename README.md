@@ -11,3 +11,4 @@ In this project I used a rapidapi spotify api instead of the oficial spotify api
 # jamming
 
 ## The search results will not have elements that are in the actual playlistTracks
+## To update
